@@ -81,7 +81,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 1093,
-        "sourceUnit": 7690,
+        "sourceUnit": 10282,
         "src": "25:59:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -92,7 +92,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 1093,
-        "sourceUnit": 7412,
+        "sourceUnit": 10004,
         "src": "85:61:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -103,7 +103,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 1093,
-        "sourceUnit": 7599,
+        "sourceUnit": 10191,
         "src": "147:59:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -114,7 +114,7 @@
         "id": 5,
         "nodeType": "ImportDirective",
         "scope": 1093,
-        "sourceUnit": 7615,
+        "sourceUnit": 10207,
         "src": "207:74:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -207,7 +207,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7704,
+                        "referencedDeclaration": 10296,
                         "src": "657:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -348,7 +348,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 7704,
+                            "referencedDeclaration": 10296,
                             "src": "959:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -424,10 +424,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7708,
+                      "referencedDeclaration": 10300,
                       "src": "951:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -523,10 +523,10 @@
                               "name": "Address",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 7689,
+                              "referencedDeclaration": 10281,
                               "src": "1406:7:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_Address_$7689_$",
+                                "typeIdentifier": "t_type$_t_contract$_Address_$10281_$",
                                 "typeString": "type(library Address)"
                               }
                             },
@@ -537,7 +537,7 @@
                             "lValueRequested": false,
                             "memberName": "isContract",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 7641,
+                            "referencedDeclaration": 10233,
                             "src": "1406:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
@@ -618,10 +618,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7708,
+                      "referencedDeclaration": 10300,
                       "src": "1397:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -677,7 +677,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7704,
+                        "referencedDeclaration": 10296,
                         "src": "1490:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -1249,10 +1249,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7708,
+                      "referencedDeclaration": 10300,
                       "src": "2329:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1391,10 +1391,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7708,
+                      "referencedDeclaration": 10300,
                       "src": "2430:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1879,10 +1879,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7707,
+                      "referencedDeclaration": 10299,
                       "src": "3540:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2401,10 +2401,10 @@
               "id": 191,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 7598,
+              "referencedDeclaration": 10190,
               "src": "3962:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$7598",
+                "typeIdentifier": "t_contract$_SafeMath_$10190",
                 "typeString": "library SafeMath"
               }
             },
@@ -2428,10 +2428,10 @@
               "id": 194,
               "name": "Address",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 7689,
+              "referencedDeclaration": 10281,
               "src": "3994:7:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Address_$7689",
+                "typeIdentifier": "t_contract$_Address_$10281",
                 "typeString": "library Address"
               }
             },
@@ -2456,10 +2456,10 @@
               "id": 197,
               "name": "Counters",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 7411,
+              "referencedDeclaration": 10003,
               "src": "4025:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Counters_$7411",
+                "typeIdentifier": "t_contract$_Counters_$10003",
                 "typeString": "library Counters"
               }
             },
@@ -2470,10 +2470,10 @@
               "id": 198,
               "name": "Counters.Counter",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 7371,
+              "referencedDeclaration": 9963,
               "src": "4038:16:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Counter_$7371_storage_ptr",
+                "typeIdentifier": "t_struct$_Counter_$9963_storage_ptr",
                 "typeString": "struct Counters.Counter"
               }
             }
@@ -2623,7 +2623,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Counter_$7371_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Counter_$9963_storage_$",
               "typeString": "mapping(address => struct Counters.Counter)"
             },
             "typeName": {
@@ -2641,7 +2641,7 @@
               "nodeType": "Mapping",
               "src": "4898:37:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Counter_$7371_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Counter_$9963_storage_$",
                 "typeString": "mapping(address => struct Counters.Counter)"
               },
               "valueType": {
@@ -2649,10 +2649,10 @@
                 "id": 212,
                 "name": "Counters.Counter",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 7371,
+                "referencedDeclaration": 9963,
                 "src": "4918:16:0",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Counter_$7371_storage_ptr",
+                  "typeIdentifier": "t_struct$_Counter_$9963_storage_ptr",
                   "typeString": "struct Counters.Counter"
                 }
               }
@@ -3247,10 +3247,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7708,
+                      "referencedDeclaration": 10300,
                       "src": "5979:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -3298,7 +3298,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 7704,
+                            "referencedDeclaration": 10296,
                             "src": "6179:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -3374,10 +3374,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7708,
+                      "referencedDeclaration": 10300,
                       "src": "6171:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -3776,10 +3776,10 @@
                               "name": "Address",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 7689,
+                              "referencedDeclaration": 10281,
                               "src": "6600:7:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_Address_$7689_$",
+                                "typeIdentifier": "t_type$_t_contract$_Address_$10281_$",
                                 "typeString": "type(library Address)"
                               }
                             },
@@ -3790,7 +3790,7 @@
                             "lValueRequested": false,
                             "memberName": "isContract",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 7641,
+                            "referencedDeclaration": 10233,
                             "src": "6600:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
@@ -3871,10 +3871,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7708,
+                      "referencedDeclaration": 10300,
                       "src": "6591:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -4071,7 +4071,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 7704,
+                            "referencedDeclaration": 10296,
                             "src": "7106:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -4110,10 +4110,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7707,
+                      "referencedDeclaration": 10299,
                       "src": "7092:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -4172,7 +4172,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 7704,
+                            "referencedDeclaration": 10296,
                             "src": "7146:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -4266,7 +4266,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 7704,
+                          "referencedDeclaration": 10296,
                           "src": "7202:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -4648,7 +4648,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 7704,
+                              "referencedDeclaration": 10296,
                               "src": "7815:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -4731,10 +4731,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7707,
+                      "referencedDeclaration": 10299,
                       "src": "7788:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -5392,10 +5392,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7707,
+                      "referencedDeclaration": 10299,
                       "src": "8177:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -6352,10 +6352,10 @@
                               "name": "Address",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 7689,
+                              "referencedDeclaration": 10281,
                               "src": "9505:7:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_Address_$7689_$",
+                                "typeIdentifier": "t_type$_t_contract$_Address_$10281_$",
                                 "typeString": "type(library Address)"
                               }
                             },
@@ -6366,7 +6366,7 @@
                             "lValueRequested": false,
                             "memberName": "isContract",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 7641,
+                            "referencedDeclaration": 10233,
                             "src": "9505:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
@@ -6447,10 +6447,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7708,
+                      "referencedDeclaration": 10300,
                       "src": "9497:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -6562,7 +6562,7 @@
                         "referencedDeclaration": 214,
                         "src": "9698:17:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Counter_$7371_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Counter_$9963_storage_$",
                           "typeString": "mapping(address => struct Counters.Counter storage ref)"
                         }
                       },
@@ -6587,7 +6587,7 @@
                       "nodeType": "IndexAccess",
                       "src": "9698:21:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Counter_$7371_storage",
+                        "typeIdentifier": "t_struct$_Counter_$9963_storage",
                         "typeString": "struct Counters.Counter storage ref"
                       }
                     },
@@ -6598,10 +6598,10 @@
                     "lValueRequested": false,
                     "memberName": "increment",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 7394,
+                    "referencedDeclaration": 9986,
                     "src": "9698:31:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Counter_$7371_storage_ptr_$returns$__$bound_to$_t_struct$_Counter_$7371_storage_ptr_$",
+                      "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Counter_$9963_storage_ptr_$returns$__$bound_to$_t_struct$_Counter_$9963_storage_ptr_$",
                       "typeString": "function (struct Counters.Counter storage pointer)"
                     }
                   },
@@ -6921,10 +6921,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7708,
+                      "referencedDeclaration": 10300,
                       "src": "10186:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -6994,10 +6994,10 @@
                               "name": "Address",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 7689,
+                              "referencedDeclaration": 10281,
                               "src": "10361:7:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_Address_$7689_$",
+                                "typeIdentifier": "t_type$_t_contract$_Address_$10281_$",
                                 "typeString": "type(library Address)"
                               }
                             },
@@ -7008,7 +7008,7 @@
                             "lValueRequested": false,
                             "memberName": "isContract",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 7641,
+                            "referencedDeclaration": 10233,
                             "src": "10361:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
@@ -7089,10 +7089,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7708,
+                      "referencedDeclaration": 10300,
                       "src": "10353:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -7247,7 +7247,7 @@
                         "referencedDeclaration": 214,
                         "src": "10587:17:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Counter_$7371_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Counter_$9963_storage_$",
                           "typeString": "mapping(address => struct Counters.Counter storage ref)"
                         }
                       },
@@ -7272,7 +7272,7 @@
                       "nodeType": "IndexAccess",
                       "src": "10587:23:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Counter_$7371_storage",
+                        "typeIdentifier": "t_struct$_Counter_$9963_storage",
                         "typeString": "struct Counters.Counter storage ref"
                       }
                     },
@@ -7283,10 +7283,10 @@
                     "lValueRequested": false,
                     "memberName": "decrement",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 7410,
+                    "referencedDeclaration": 10002,
                     "src": "10587:33:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Counter_$7371_storage_ptr_$returns$__$bound_to$_t_struct$_Counter_$7371_storage_ptr_$",
+                      "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Counter_$9963_storage_ptr_$returns$__$bound_to$_t_struct$_Counter_$9963_storage_ptr_$",
                       "typeString": "function (struct Counters.Counter storage pointer)"
                     }
                   },
@@ -7606,7 +7606,7 @@
                         "lValueRequested": false,
                         "memberName": "isContract",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 7641,
+                        "referencedDeclaration": 10233,
                         "src": "11415:13:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$bound_to$_t_address_$",
@@ -7712,7 +7712,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 7704,
+                          "referencedDeclaration": 10296,
                           "src": "11531:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -7820,10 +7820,10 @@
                           "name": "IERC721Receiver",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 7614,
+                          "referencedDeclaration": 10206,
                           "src": "11494:15:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_IERC721Receiver_$7614_$",
+                            "typeIdentifier": "t_type$_t_contract$_IERC721Receiver_$10206_$",
                             "typeString": "type(contract IERC721Receiver)"
                           }
                         },
@@ -7837,7 +7837,7 @@
                         "nodeType": "FunctionCall",
                         "src": "11494:19:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IERC721Receiver_$7614",
+                          "typeIdentifier": "t_contract$_IERC721Receiver_$10206",
                           "typeString": "contract IERC721Receiver"
                         }
                       },
@@ -7848,7 +7848,7 @@
                       "lValueRequested": false,
                       "memberName": "onERC721Received",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 7613,
+                      "referencedDeclaration": 10205,
                       "src": "11494:36:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$_t_bytes_memory_ptr_$returns$_t_bytes4_$",
@@ -8882,10 +8882,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7707,
+                      "referencedDeclaration": 10299,
                       "src": "13348:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -9270,10 +9270,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7707,
+                      "referencedDeclaration": 10299,
                       "src": "14091:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -9496,7 +9496,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7747,
+                        "referencedDeclaration": 10339,
                         "src": "14622:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC721Enumerable_$942",
@@ -9839,7 +9839,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7747,
+                        "referencedDeclaration": 10339,
                         "src": "15094:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC721Enumerable_$942",
@@ -10878,7 +10878,7 @@
                       "lValueRequested": false,
                       "memberName": "sub",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 7454,
+                      "referencedDeclaration": 10046,
                       "src": "17290:29:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -11574,7 +11574,7 @@
                       "lValueRequested": false,
                       "memberName": "sub",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 7454,
+                      "referencedDeclaration": 10046,
                       "src": "18693:21:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -12923,10 +12923,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7707,
+                      "referencedDeclaration": 10299,
                       "src": "20834:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -13149,10 +13149,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7707,
-                        7708
+                        10299,
+                        10300
                       ],
-                      "referencedDeclaration": 7707,
+                      "referencedDeclaration": 10299,
                       "src": "21436:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -13644,7 +13644,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7751,
+                        "referencedDeclaration": 10343,
                         "src": "22492:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_CustomERC721Token_$1092",
@@ -13714,7 +13714,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7751,
+                        "referencedDeclaration": 10343,
                         "src": "22526:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_CustomERC721Token_$1092",
@@ -13955,7 +13955,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 7690,
+          "SourceUnit": 10282,
           "absolutePath": "openzeppelin-solidity/contracts/utils/Address.sol",
           "file": "openzeppelin-solidity/contracts/utils/Address.sol",
           "scope": 1093,
@@ -13970,7 +13970,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 7412,
+          "SourceUnit": 10004,
           "absolutePath": "openzeppelin-solidity/contracts/drafts/Counters.sol",
           "file": "openzeppelin-solidity/contracts/drafts/Counters.sol",
           "scope": 1093,
@@ -13985,7 +13985,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 7599,
+          "SourceUnit": 10191,
           "absolutePath": "openzeppelin-solidity/contracts/math/SafeMath.sol",
           "file": "openzeppelin-solidity/contracts/math/SafeMath.sol",
           "scope": 1093,
@@ -14000,7 +14000,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 7615,
+          "SourceUnit": 10207,
           "absolutePath": "openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol",
           "file": "openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol",
           "scope": 1093,
@@ -14158,7 +14158,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7704,
+                                  "referencedDeclaration": 10296,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -14301,10 +14301,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7708,
+                              "referencedDeclaration": 10300,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -14345,7 +14345,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 7704,
+                                      "referencedDeclaration": 10296,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -14533,10 +14533,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7708,
+                              "referencedDeclaration": 10300,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -14587,7 +14587,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "isContract",
-                                      "referencedDeclaration": 7641,
+                                      "referencedDeclaration": 10233,
                                       "type": "function (address) view returns (bool)"
                                     },
                                     "children": [
@@ -14597,7 +14597,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 7689,
+                                          "referencedDeclaration": 10281,
                                           "type": "type(library Address)",
                                           "value": "Address"
                                         },
@@ -14723,7 +14723,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7704,
+                                  "referencedDeclaration": 10296,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -15229,10 +15229,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7708,
+                              "referencedDeclaration": 10300,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -15383,10 +15383,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7708,
+                              "referencedDeclaration": 10300,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -15989,10 +15989,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7707,
+                              "referencedDeclaration": 10299,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -16533,7 +16533,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "SafeMath",
-                  "referencedDeclaration": 7598,
+                  "referencedDeclaration": 10190,
                   "type": "library SafeMath"
                 },
                 "id": 191,
@@ -16560,7 +16560,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Address",
-                  "referencedDeclaration": 7689,
+                  "referencedDeclaration": 10281,
                   "type": "library Address"
                 },
                 "id": 194,
@@ -16588,7 +16588,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Counters",
-                  "referencedDeclaration": 7411,
+                  "referencedDeclaration": 10003,
                   "type": "library Counters"
                 },
                 "id": 197,
@@ -16599,7 +16599,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Counters.Counter",
-                  "referencedDeclaration": 7371,
+                  "referencedDeclaration": 9963,
                   "type": "struct Counters.Counter"
                 },
                 "id": 198,
@@ -16775,7 +16775,7 @@
                     "attributes": {
                       "contractScope": null,
                       "name": "Counters.Counter",
-                      "referencedDeclaration": 7371,
+                      "referencedDeclaration": 9963,
                       "type": "struct Counters.Counter"
                     },
                     "id": 212,
@@ -17433,10 +17433,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7708,
+                              "referencedDeclaration": 10300,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -17578,10 +17578,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7708,
+                              "referencedDeclaration": 10300,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -17622,7 +17622,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 7704,
+                                      "referencedDeclaration": 10296,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -18040,10 +18040,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7708,
+                              "referencedDeclaration": 10300,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -18094,7 +18094,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "isContract",
-                                      "referencedDeclaration": 7641,
+                                      "referencedDeclaration": 10233,
                                       "type": "function (address) view returns (bool)"
                                     },
                                     "children": [
@@ -18104,7 +18104,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 7689,
+                                          "referencedDeclaration": 10281,
                                           "type": "type(library Address)",
                                           "value": "Address"
                                         },
@@ -18392,10 +18392,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7707,
+                              "referencedDeclaration": 10299,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -18450,7 +18450,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 7704,
+                                      "referencedDeclaration": 10296,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -18543,7 +18543,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 7704,
+                                          "referencedDeclaration": 10296,
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -18666,7 +18666,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7704,
+                                  "referencedDeclaration": 10296,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -19073,10 +19073,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7707,
+                              "referencedDeclaration": 10299,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -19140,7 +19140,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 7704,
+                                      "referencedDeclaration": 10296,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -19796,10 +19796,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7707,
+                              "referencedDeclaration": 10299,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -20814,10 +20814,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7708,
+                              "referencedDeclaration": 10300,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -20868,7 +20868,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "isContract",
-                                      "referencedDeclaration": 7641,
+                                      "referencedDeclaration": 10233,
                                       "type": "function (address) view returns (bool)"
                                     },
                                     "children": [
@@ -20878,7 +20878,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 7689,
+                                          "referencedDeclaration": 10281,
                                           "type": "type(library Address)",
                                           "value": "Address"
                                         },
@@ -21088,7 +21088,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "member_name": "increment",
-                          "referencedDeclaration": 7394,
+                          "referencedDeclaration": 9986,
                           "type": "function (struct Counters.Counter storage pointer)"
                         },
                         "children": [
@@ -21426,10 +21426,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7708,
+                              "referencedDeclaration": 10300,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -21571,10 +21571,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7708,
+                              "referencedDeclaration": 10300,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -21625,7 +21625,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "isContract",
-                                      "referencedDeclaration": 7641,
+                                      "referencedDeclaration": 10233,
                                       "type": "function (address) view returns (bool)"
                                     },
                                     "children": [
@@ -21635,7 +21635,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 7689,
+                                          "referencedDeclaration": 10281,
                                           "type": "type(library Address)",
                                           "value": "Address"
                                         },
@@ -21848,7 +21848,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "member_name": "decrement",
-                          "referencedDeclaration": 7410,
+                          "referencedDeclaration": 10002,
                           "type": "function (struct Counters.Counter storage pointer)"
                         },
                         "children": [
@@ -22300,7 +22300,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "isContract",
-                                  "referencedDeclaration": 7641,
+                                  "referencedDeclaration": 10233,
                                   "type": "function (address) view returns (bool)"
                                 },
                                 "children": [
@@ -22445,7 +22445,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "onERC721Received",
-                              "referencedDeclaration": 7613,
+                              "referencedDeclaration": 10205,
                               "type": "function (address,address,uint256,bytes memory) external returns (bytes4)"
                             },
                             "children": [
@@ -22475,7 +22475,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 7614,
+                                      "referencedDeclaration": 10206,
                                       "type": "type(contract IERC721Receiver)",
                                       "value": "IERC721Receiver"
                                     },
@@ -22525,7 +22525,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7704,
+                                  "referencedDeclaration": 10296,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -23545,10 +23545,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7707,
+                              "referencedDeclaration": 10299,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -23968,10 +23968,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7707,
+                              "referencedDeclaration": 10299,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -24289,7 +24289,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7747,
+                                  "referencedDeclaration": 10339,
                                   "type": "contract super ERC721Enumerable",
                                   "value": "super"
                                 },
@@ -24653,7 +24653,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7747,
+                                  "referencedDeclaration": 10339,
                                   "type": "contract super ERC721Enumerable",
                                   "value": "super"
                                 },
@@ -25738,7 +25738,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "sub",
-                              "referencedDeclaration": 7454,
+                              "referencedDeclaration": 10046,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -26496,7 +26496,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "sub",
-                              "referencedDeclaration": 7454,
+                              "referencedDeclaration": 10046,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -28006,10 +28006,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7707,
+                              "referencedDeclaration": 10299,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -28231,10 +28231,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                7707,
-                                7708
+                                10299,
+                                10300
                               ],
-                              "referencedDeclaration": 7707,
+                              "referencedDeclaration": 10299,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -28870,7 +28870,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7751,
+                                  "referencedDeclaration": 10343,
                                   "type": "contract super CustomERC721Token",
                                   "value": "super"
                                 },
@@ -28961,7 +28961,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7751,
+                                  "referencedDeclaration": 10343,
                                   "type": "contract super CustomERC721Token",
                                   "value": "super"
                                 },
@@ -29051,7 +29051,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-06-06T06:08:27.009Z",
+  "updatedAt": "2021-06-07T15:43:18.954Z",
   "devdoc": {
     "methods": {
       "constructor": {

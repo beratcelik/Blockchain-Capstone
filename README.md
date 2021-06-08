@@ -2,7 +2,32 @@
 ``npm install``
 ``cd eth-contracts``
 `ganache-cli`
+
+open a new terminal and go to `eth-contracts` direction
+
 ``truffle test ./test/TestERC721Mintable.js``
+
+###How to create `verifier.sol` using ZoKrates
+
+`docker run -v /Users/iberat/PhpstormProjects/RealEstateMarketplace/Blockchain-Capstone/zokrates/code:/home/zokrates/code -ti zokrates/zokrates /bin/bash`
+
+`cd code/square/code`
+
+`zokrates compile -i square.code`
+
+`zokrates setup`
+
+`zokrates compute-witness -a 3 9`
+
+`zokrates generate-proof`
+
+`zokrates export-verifier`
+
+You should see `verifier.sol` generated. Import to use it in `SolnSquareVerifier.sol`
+
+`import "../../zokrates/code/square/verifier.sol";`
+
+
 
 
 # Write Up
