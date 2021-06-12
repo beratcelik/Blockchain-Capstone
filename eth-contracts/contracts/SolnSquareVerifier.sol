@@ -29,14 +29,12 @@ contract SolnSquareVerifier is CustomERC721Token {
 
     // TODO Create an event to emit when a solution is added
     event solutionIsAdded(uint256 countSolution, address indexed _address);
-/*
-    constructor(address _address, string memory _name, string memory _symbol)
-        CustomERC721Token(_name, _symbol)
-            public
-            {
-                //squareVerifier = Verifier(_address);
-            }
-*/
+
+        constructor(address _address, string memory _name, string memory _symbol) CustomERC721Token(_name, _symbol) public
+                {
+                    squareVerifier = Verifier(_address);
+                }
+
     // TODO Create a function to add the solutions to the array and emit the event
     function addTheSolutions (
             uint256[2] memory a,

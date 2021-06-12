@@ -4,9 +4,11 @@
 
 var SquareVerifier = artifacts.require("../../zokrates/code/square/verifier.sol");
 var SolnSquareVerifier = artifacts.require("./SolnSquareVerifier.sol");
+//var ERC721Mintable = artifacts.require("CustomERC721Token");
 
 
-module.exports = function(deployer) {
-  deployer.deploy(SquareVerifier);
-  deployer.deploy(SolnSquareVerifier);
+module.exports = async (deployer) => {
+  await deployer.deploy(SquareVerifier);
+  //await deployer.deploy(ERC721Mintable, "CustomToken", "cToken");
+  await deployer.deploy(SolnSquareVerifier, SquareVerifier.address, "CustomToken", "cToken");
 };

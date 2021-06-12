@@ -493,7 +493,7 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
      *     bytes4(keccak256('symbol()')) ^
      *     bytes4(keccak256('tokenURI(uint256)'))
      */
-/*
+
         constructor (string memory name, string memory symbol, string memory baseTokenURI) public {
             // TODO: set instance var values
             _name = name;
@@ -502,7 +502,7 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
 
             _registerInterface(_INTERFACE_ID_ERC721_METADATA);
         }
-*/
+
     // TODO: create external getter functions for name, symbol, and baseTokenURI
     function getName() public view returns(string memory){
         return _name;
@@ -545,12 +545,18 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
 //      -calls the superclass mint and setTokenURI functions
 
 contract CustomERC721Token is ERC721Metadata {
-    string _baseTokenURI = "https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/";
-
+    string baseTokenURI = "https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/";
+   // string name = "CustomToken";
+   // string symbol = "cToken";
+    constructor(string memory name, string memory symbol)
+    ERC721Metadata(name, symbol, baseTokenURI)
+    public
+    {
+    }
 
   function mint(address to, uint256 tokenId) public onlyOwner returns(bool){
         super._mint(to, tokenId);
-        super.setTokenURI(tokenId, _baseTokenURI);
+        super.setTokenURI(tokenId, baseTokenURI);
         return true;
     }
 
