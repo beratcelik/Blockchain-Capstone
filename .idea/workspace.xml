@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="Test files are completed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="Read Me updated">
+      <change beforePath="$PROJECT_DIR$/eth-contracts/mnemonic.secret" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/mnemonic.secret" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623166576858</updated>
-      <workItem from="1623166578215" duration="30380000" />
+      <workItem from="1623166578215" duration="30567000" />
     </task>
     <task id="LOCAL-00001" summary="ERC721MintableComplete changed to CustomERC721Token in TestERC721Mintable.js&#10;&#10;//var ERC721MintableComplete = artifacts.require('ERC721MintableComplete');&#10;var ERC721MintableComplete = artifacts.require('CustomERC721Token');">
       <created>1623168978675</created>
@@ -59,7 +59,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623492732516</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gitignore updated">
+      <created>1623493124784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623493124784</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Read Me updated">
+      <created>1623493230457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623493230457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +93,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ERC721MintableComplete changed to CustomERC721Token in TestERC721Mintable.js&#10;&#10;//var ERC721MintableComplete = artifacts.require('ERC721MintableComplete');&#10;var ERC721MintableComplete = artifacts.require('CustomERC721Token');" />
     <MESSAGE value="Test files are completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test files are completed" />
+    <MESSAGE value="gitignore updated" />
+    <MESSAGE value="Read Me updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Read Me updated" />
   </component>
 </project>
