@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="Read Me updated">
+    <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="Secret files updated">
       <change beforePath="$PROJECT_DIR$/eth-contracts/mnemonic.secret" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/mnemonic.secret" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623166576858</updated>
-      <workItem from="1623166578215" duration="30567000" />
+      <workItem from="1623166578215" duration="30873000" />
     </task>
     <task id="LOCAL-00001" summary="ERC721MintableComplete changed to CustomERC721Token in TestERC721Mintable.js&#10;&#10;//var ERC721MintableComplete = artifacts.require('ERC721MintableComplete');&#10;var ERC721MintableComplete = artifacts.require('CustomERC721Token');">
       <created>1623168978675</created>
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623493230457</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Secret files updated">
+      <created>1623493287917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623493287917</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +102,7 @@
     <MESSAGE value="Test files are completed" />
     <MESSAGE value="gitignore updated" />
     <MESSAGE value="Read Me updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Read Me updated" />
+    <MESSAGE value="Secret files updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Secret files updated" />
   </component>
 </project>
