@@ -6,6 +6,8 @@ import 'openzeppelin-solidity/contracts/math/SafeMath.sol';
 import 'openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol';
 import "./Oraclize.sol";
 
+
+
 contract Ownable {
     //  TODO's
     //  1) create a private '_owner' variable of type address with a public getter function
@@ -147,7 +149,8 @@ contract ERC721 is Pausable, ERC165 {
     function balanceOf(address owner) public view returns (uint256) {
         // TODO return the token balance of given address
         // TIP: remember the functions to use for Counters. you can refresh yourself with the link above
-        return balanceOf(owner);
+        // return balanceOf(owner);
+        return _ownedTokensCount[owner].current();
     }
 
     function ownerOf(uint256 tokenId) public view returns (address) {
@@ -241,11 +244,11 @@ contract ERC721 is Pausable, ERC165 {
     function _mint(address to, uint256 tokenId) internal {
 
         // TODO revert if given tokenId already exists or given address is invalid
-        require(Address.isContract(ownerOf(tokenId)) == true, 'Address is invalid');
+        require(Address.isContract(ownerOf(tokenId)) == false, 'Address is invalid');
   
         // TODO mint tokenId to given address & increase token count of owner
         _tokenOwner[tokenId] = to;
-        _ownedTokensCount[to].increment;
+        _ownedTokensCount[to].increment();
 
         // TODO emit Transfer event
         emit Transfer(_tokenOwner[tokenId], to, tokenId);
@@ -259,13 +262,14 @@ contract ERC721 is Pausable, ERC165 {
         require(from == _tokenOwner[tokenId],'from address is not the owner of the given token');
 
         // TODO: require token is being transfered to valid address
-        require(Address.isContract(to) == true, 'Address is invalid');
+        //require(Address.isContract(to) == true, 'Address is invalid');
         
         // TODO: clear approval
         _tokenApprovals[tokenId] = address(0);
 
         // TODO: update token counts & transfer ownership of the token ID
-        _ownedTokensCount[from].decrement;
+        _ownedTokensCount[from].decrement();
+        _ownedTokensCount[to].increment();
         _tokenOwner[tokenId] = to;
 
         // TODO: emit correct event
@@ -489,30 +493,29 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
      *     bytes4(keccak256('symbol()')) ^
      *     bytes4(keccak256('tokenURI(uint256)'))
      */
+/*
+        constructor (string memory name, string memory symbol, string memory baseTokenURI) public {
+            // TODO: set instance var values
+            _name = name;
+            _symbol = symbol;
+            _baseTokenURI = baseTokenURI;
 
-
-    constructor (string memory name, string memory symbol, string memory baseTokenURI) public {
-        // TODO: set instance var values
-        _name = name;
-        _symbol = symbol;
-        _baseTokenURI = baseTokenURI;
-
-        _registerInterface(_INTERFACE_ID_ERC721_METADATA);
-    }
-
+            _registerInterface(_INTERFACE_ID_ERC721_METADATA);
+        }
+*/
     // TODO: create external getter functions for name, symbol, and baseTokenURI
-    function getName() public returns(string memory){
+    function getName() public view returns(string memory){
         return _name;
     }
-    function getSymbol() public returns(string memory){
+    function getSymbol() public view returns(string memory){
         return _symbol;
     }
-    function getBaseTokenURI() public returns(string memory){
+    function getBaseTokenURI() public view returns(string memory){
         return _baseTokenURI;
     }
 
     function tokenURI(uint256 tokenId) external view returns (string memory) {
-        require(_exists(tokenId));
+        require(_exists(tokenId),"Token doesn't exist");
         return _tokenURIs[tokenId];
     }
 
@@ -523,11 +526,11 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
     // TIP #2: you can also use uint2str() to convert a uint to a string
         // see https://github.com/oraclize/ethereum-api/blob/master/oraclizeAPI_0.5.sol for strConcat()
     // require the token exists before setting
-    function setTokenURI(uint256 tokenId) internal {
-        require(_exists(tokenId));
-        string memory tokenIdString = uint2str(tokenId);
+    function setTokenURI(uint256 _tokenId, string memory _baseTokenURI) internal {
+        require(_exists(_tokenId));
+        string memory tokenIdString = uint2str(_tokenId);
         string memory newTokenURI = strConcat(_baseTokenURI,tokenIdString);
-        _tokenURIs[tokenId] = newTokenURI;
+        _tokenURIs[_tokenId] = newTokenURI;
     }
 
 }
@@ -542,14 +545,15 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
 //      -calls the superclass mint and setTokenURI functions
 
 contract CustomERC721Token is ERC721Metadata {
-
     string _baseTokenURI = "https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/";
 
-    function mint(address to, uint256 tokenId) public onlyOwner returns(bool){
+
+  function mint(address to, uint256 tokenId) public onlyOwner returns(bool){
         super._mint(to, tokenId);
-        super.setTokenURI(tokenId);
+        super.setTokenURI(tokenId, _baseTokenURI);
         return true;
     }
 
 }
+
 

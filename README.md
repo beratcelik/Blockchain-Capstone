@@ -7,6 +7,14 @@ open a new terminal and go to `eth-contracts` direction
 
 ``truffle test ./test/TestERC721Mintable.js``
 
+``truffle test ./test/TestSolnSquareVerifier.js``
+
+``truffle test ./test/TestSquareVerifier.js``
+
+##How to Test on Rinkeby
+
+`truffle migrate --reset --network rinkeby`
+
 ###How to create `verifier.sol` using ZoKrates
 
 `docker run -v /Users/iberat/PhpstormProjects/RealEstateMarketplace/Blockchain-Capstone/zokrates/code:/home/zokrates/code -ti zokrates/zokrates /bin/bash`

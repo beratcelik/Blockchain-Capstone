@@ -11,9 +11,11 @@
   "author": "pk <pkrasam@gmail.com> (https://ipfs.infura.io/ipfs/QmSXiR9Khm3yo1J67nUopvVBxFJ8YGN2fUGZ34Etr3m92x/)",
   "license": "MIT",
   "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.11",
     "lite-server": "2.4.0"
   },
   "dependencies": {
+    "bignumber": "^1.1.0",
     "openzeppelin-solidity": "^2.2.0",
     "solc": "^0.5.2",
     "solc-js": "^0.5.2"
