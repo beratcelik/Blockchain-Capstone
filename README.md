@@ -1,4 +1,4 @@
-#How to Test
+#How to Test#
 ``npm install``
 ``cd eth-contracts``
 `ganache-cli`
@@ -11,11 +11,11 @@ open a new terminal and go to `eth-contracts` direction
 
 ``truffle test ./test/TestSquareVerifier.js``
 
-##How to Test on Rinkeby
+##How to Test on Rinkeby##
 
 `truffle migrate --reset --network rinkeby`
 
-###How to create `verifier.sol` using ZoKrates
+###How to create `verifier.sol` using ZoKrates###
 
 `docker run -v /Users/iberat/PhpstormProjects/RealEstateMarketplace/Blockchain-Capstone/zokrates/code:/home/zokrates/code -ti zokrates/zokrates /bin/bash`
 
@@ -38,17 +38,17 @@ You should see `verifier.sol` generated. Import to use it in `SolnSquareVerifier
 
 
 
-# Write Up
+# Write Up#
 Student provides Contract Addresses, Contract Abi's, OpenSea MarketPlace Storefront link's.
 
 
 
 
-# Udacity Blockchain Capstone
+# Udacity Blockchain Capstone#
 
 The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
 
-# Project Resources
+# Project Resources#
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
 * [Visual Studio Code](https://code.visualstudio.com/)
