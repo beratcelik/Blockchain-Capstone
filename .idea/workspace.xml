@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="Constructors updated">
+    <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="Constructors and tests are updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC165.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC165.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721.json" afterDir="false" />
@@ -12,10 +12,8 @@
       <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Pausable.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/Pausable.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Verifier.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/Verifier.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/contracts/ERC721Mintable.sol" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/contracts/ERC721Mintable.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth-contracts/contracts/SolnSquareVerifier.sol" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/contracts/SolnSquareVerifier.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/migrations/2_deploy_contracts.js" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/migrations/2_deploy_contracts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth-contracts/test/TestERC721Mintable.js" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/test/TestERC721Mintable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth-contracts/test/TestSolnSquareVerifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/test/TestSolnSquareVerifier.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/truffle-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623166576858</updated>
-      <workItem from="1623166578215" duration="46600000" />
+      <workItem from="1623166578215" duration="51599000" />
     </task>
     <task id="LOCAL-00001" summary="ERC721MintableComplete changed to CustomERC721Token in TestERC721Mintable.js&#10;&#10;//var ERC721MintableComplete = artifacts.require('ERC721MintableComplete');&#10;var ERC721MintableComplete = artifacts.require('CustomERC721Token');">
       <created>1623168978675</created>
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623511738775</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Constructors and tests are updated">
+      <created>1623566624807</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623566624807</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +137,7 @@
     <MESSAGE value="Secret files updated" />
     <MESSAGE value="Secret files updated." />
     <MESSAGE value="Constructors updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructors updated" />
+    <MESSAGE value="Constructors and tests are updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructors and tests are updated" />
   </component>
 </project>
