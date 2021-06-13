@@ -5,9 +5,13 @@ const {expectRevert} = require('@openzeppelin/test-helpers');
 var Json = require("../../zokrates/code/square/proof.json");
 
 contract('TestSolnSquareVerifier', accounts => {
+
     const account_one = accounts[0];
-    const symbol = "cTok";
-    const name = "Custom Token";
+
+    const name = "customToken";
+    const symbol = "CTN";
+    const baseTokenURI = "https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/";
+
 
     describe('description here', function () {
         beforeEach(async function f() {
@@ -28,7 +32,7 @@ contract('TestSolnSquareVerifier', accounts => {
                 status = false
             }
 
-            assert.equal(status, false, "A new solution can not be added for contract - SolnSquareVerifier");
+            assert.equal(status, true, "A new solution can not be added for contract - SolnSquareVerifier");
 
         });
 
@@ -42,7 +46,7 @@ contract('TestSolnSquareVerifier', accounts => {
                 })
             }catch (e) {
                 status = false
-                console.log(e);
+                //console.log(e);
             }
 
             assert.equal(status, true, "An ERC721 token can not be minted for contract - SolnSquareVerifier");
@@ -50,10 +54,6 @@ contract('TestSolnSquareVerifier', accounts => {
         });
 
     })
-})
 
 
-
-
-
-
+});

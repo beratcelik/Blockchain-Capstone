@@ -48,7 +48,7 @@ contract SolnSquareVerifier is CustomERC721Token {
             require(solutions[sHash]._address == address(0), "Solution exists already");
 
             bool verified = squareVerifier.verifyTx(a,b,c,input);
-            require(verified, "Solution is not be verified");
+            require(verified, "Solution is not verified");
 
             solutions[sHash] = Solution(countSolution[sHash].current(), msg.sender, false);
 
@@ -64,7 +64,7 @@ contract SolnSquareVerifier is CustomERC721Token {
 
         bytes32 sHash = keccak256(abi.encodePacked(a, b));
         require(solutions[sHash]._minted == false, "make sure the solution is unique (has not been used before.");
-        //require(solutions[sHash]._address == msg.sender, "You are not the owner.");
+       // require(solutions[sHash]._address == msg.sender, "You are not the owner.");
 
         super.mint(toAddress, solutions[sHash]._index);
         solutions[sHash]._minted = true;

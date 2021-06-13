@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="Secret files updated.">
+    <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="Constructors updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC165.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC165.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721Enumerable.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721Enumerable.json" afterDir="false" />
@@ -15,6 +14,8 @@
       <change beforePath="$PROJECT_DIR$/eth-contracts/contracts/ERC721Mintable.sol" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/contracts/ERC721Mintable.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/contracts/SolnSquareVerifier.sol" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/contracts/SolnSquareVerifier.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/migrations/2_deploy_contracts.js" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/migrations/2_deploy_contracts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/test/TestERC721Mintable.js" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/test/TestERC721Mintable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/test/TestSolnSquareVerifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/test/TestSolnSquareVerifier.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623166576858</updated>
-      <workItem from="1623166578215" duration="39788000" />
+      <workItem from="1623166578215" duration="46600000" />
     </task>
     <task id="LOCAL-00001" summary="ERC721MintableComplete changed to CustomERC721Token in TestERC721Mintable.js&#10;&#10;//var ERC721MintableComplete = artifacts.require('ERC721MintableComplete');&#10;var ERC721MintableComplete = artifacts.require('CustomERC721Token');">
       <created>1623168978675</created>
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623493664457</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Constructors updated">
+      <created>1623511738775</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623511738775</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +131,7 @@
     <MESSAGE value="Read Me updated" />
     <MESSAGE value="Secret files updated" />
     <MESSAGE value="Secret files updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Secret files updated." />
+    <MESSAGE value="Constructors updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructors updated" />
   </component>
 </project>

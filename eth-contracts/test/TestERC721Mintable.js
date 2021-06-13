@@ -5,20 +5,25 @@ const {expectRevert} = require('@openzeppelin/test-helpers');
 contract('TestERC721Mintable', accounts => {
 
     const account_one = accounts[0];
-    const account_two = accounts[1];
-    const account_thr = accounts[2];
+
+    const name = "customToken";
+    const symbol = "CTN";
+    const baseTokenURI = "https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/";
 
     describe('match erc721 spec', function () {
         beforeEach(async function () { 
-            this.contract = await ERC721MintableComplete.new({from: account_one});
+            //this.contract = await ERC721MintableComplete.new({from: account_one});
+            this.contract = await ERC721MintableComplete.new(name, symbol, {from: account_one});
 
             // TODO: mint multiple tokens
-            for (var i = 3; i < 8; i ++) {
-                //console.log(accounts[i]);
-                let status = await this.contract.mint(accounts[i],i,{from:account_one});
-            }
+                await this.contract.mint(accounts[2],2,{from:account_one});
+                await this.contract.mint(accounts[3],3,{from:account_one});
+                await this.contract.mint(accounts[4],4,{from:account_one});
+                await this.contract.mint(accounts[4],40,{from:account_one});
+                await this.contract.mint(accounts[5],5,{from:account_one});
+            //    await this.contract.mint(accounts[6],6,{from:account_one});
 
-        })
+        });
 
         it('should return total supply', async function () {
             let status = true;
@@ -26,6 +31,7 @@ contract('TestERC721Mintable', accounts => {
             try {
                 await this.contract.totalSupply({from: account_one}).then(
                     function (res) {
+                        //console.log(Number(res));
                     });
             }catch (e){
                     status = false;
@@ -37,7 +43,7 @@ contract('TestERC721Mintable', accounts => {
         it('should get token balance', async function () {
             await this.contract.balanceOf(accounts[4]).then(
                 function (res) {
-                    assert.equal(Number(res), 1, "couldn't get token balance");
+                    assert.equal(Number(res), 2, "couldn't get token balance");
                 });
         });
 
@@ -55,20 +61,21 @@ contract('TestERC721Mintable', accounts => {
             // console.log("receiver: " + accounts[5]);
             await this.contract.transferFrom(accounts[4], accounts[5], 4, {from:accounts[4]}).then(
                 function (res) {
-                    // console.log(res);
+                     //console.log(res);
                 });
         })
+
+
     });
 
     describe('have ownership properties', function () {
-        beforeEach(async function () { 
-            this.contract = await ERC721MintableComplete.new({from: account_one});
+        beforeEach(async function () {
+            this.contract = await ERC721MintableComplete.new(name, symbol, {from: account_one});
         })
 
         it('should fail when minting when address is not contract owner', async function () {
-            await expectRevert(this.contract.mint(accounts[5],5,{from:accounts[5]}),
-                "You are not the contract owner -- Reason given: You are not the contract owner.");
-
+            await expectRevert(this.contract.mint(accounts[2],20,{from:accounts[2]}),
+                'You are not the contract owner -- Reason given: You are not the contract owner');
         })
 
         it('should return contract owner', async function () { 
@@ -79,4 +86,6 @@ contract('TestERC721Mintable', accounts => {
         })
 
     });
+
 })
+
