@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="readme edited">
+    <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="Editted CustomERC721Token with the comments of Lorenzo">
       <change beforePath="$PROJECT_DIR$/eth-contracts/contracts/ERC721Mintable.sol" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/contracts/ERC721Mintable.sol" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623166576858</updated>
-      <workItem from="1623166578215" duration="76565000" />
+      <workItem from="1623166578215" duration="77013000" />
     </task>
     <task id="LOCAL-00001" summary="ERC721MintableComplete changed to CustomERC721Token in TestERC721Mintable.js&#10;&#10;//var ERC721MintableComplete = artifacts.require('ERC721MintableComplete');&#10;var ERC721MintableComplete = artifacts.require('CustomERC721Token');">
       <created>1623168978675</created>
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623775188564</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Editted CustomERC721Token with the comments of Lorenzo">
+      <created>1623775346783</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623775346783</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +169,7 @@
     <MESSAGE value="Constructors and tests are updated" />
     <MESSAGE value="small bugs fixed" />
     <MESSAGE value="readme edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme edited" />
+    <MESSAGE value="Editted CustomERC721Token with the comments of Lorenzo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Editted CustomERC721Token with the comments of Lorenzo" />
   </component>
 </project>
