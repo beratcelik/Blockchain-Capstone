@@ -2,11 +2,11 @@
 
 ###Contract Addresses
 
-`0xB6754cB8E9D7E34762eC2B8Ae804060F7437FB9F`
+`0x87d9BF0F19C36c154c65F244654D6DF569107B49`
 
 ###OpenSea MarketPlace Storefront link's
 
-`https://testnets.opensea.io/assets/0xB6754cB8E9D7E34762eC2B8Ae804060F7437FB9F/1`
+`https://testnets.opensea.io/collection/customtoken-4nwxf8rlt4`
 
 
 ### ABI
