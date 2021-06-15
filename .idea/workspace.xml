@@ -2,17 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="Constructors and tests are updated">
+      <change afterPath="$PROJECT_DIR$/eth-contracts/scripts/mint.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC165.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC165.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721Enumerable.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721Enumerable.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721Metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721Metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/Migrations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Ownable.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/Ownable.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Pausable.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/Pausable.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Verifier.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build/contracts/Verifier.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Address.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/Address.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/BN256G2.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/BN256G2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Buffer.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/Buffer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/CBOR.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/CBOR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Counters.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/Counters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC165.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/ERC165.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/ERC721.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721Enumerable.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/ERC721Enumerable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/ERC721Metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/ERC721Metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/IERC721Receiver.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/IERC721Receiver.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/Migrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/OraclizeAddrResolverI.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/OraclizeAddrResolverI.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/OraclizeI.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/OraclizeI.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Ownable.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/Ownable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Pairing.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/Pairing.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Pausable.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/Pausable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/SafeMath.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/SafeMath.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/Verifier.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/Verifier.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/solcChecker.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/solcChecker.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/build/contracts/usingOraclize.json" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/build_/contracts/usingOraclize.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/contracts/ERC721Mintable.sol" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/contracts/ERC721Mintable.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/contracts/SolnSquareVerifier.sol" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/contracts/SolnSquareVerifier.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/migrations/2_deploy_contracts.js" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/migrations/2_deploy_contracts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth-contracts/test/TestERC721Mintable.js" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/test/TestERC721Mintable.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eth-contracts/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/eth-contracts/truffle-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +40,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1tfiWaLpd8dMEg3L7XBPioqisFP" />
   <component name="ProjectViewState">
@@ -45,6 +68,10 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/eth-contracts" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/eth-contracts/scripts" />
+      <recent name="$PROJECT_DIR$/eth-contracts" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623166576858</updated>
-      <workItem from="1623166578215" duration="51599000" />
+      <workItem from="1623166578215" duration="72978000" />
     </task>
     <task id="LOCAL-00001" summary="ERC721MintableComplete changed to CustomERC721Token in TestERC721Mintable.js&#10;&#10;//var ERC721MintableComplete = artifacts.require('ERC721MintableComplete');&#10;var ERC721MintableComplete = artifacts.require('CustomERC721Token');">
       <created>1623168978675</created>
@@ -112,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623566624807</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Constructors and tests are updated">
+      <created>1623580635842</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623580635842</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
