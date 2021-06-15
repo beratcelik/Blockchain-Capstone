@@ -25,13 +25,23 @@ contract('TestERC721Mintable', accounts => {
 
         });
 
+        // Extra tests - START
+
+        it('name of the contract', async function f() {
+            await this.contract.name({from:account_one}).then(function (res) {
+                assert.equal(res,name, "Contract address didn't return");
+            })
+        })
+
+        // Extra test - END
+
         it('should return total supply', async function () {
             let status = true;
 
             try {
                 await this.contract.totalSupply({from: account_one}).then(
                     function (res) {
-                        //console.log(Number(res));
+                        console.log("Total supply: "+Number(res));
                     });
             }catch (e){
                     status = false;
@@ -43,6 +53,7 @@ contract('TestERC721Mintable', accounts => {
         it('should get token balance', async function () {
             await this.contract.balanceOf(accounts[4]).then(
                 function (res) {
+                    console.log("Balance of account 4: " + Number(res));
                     assert.equal(Number(res), 2, "couldn't get token balance");
                 });
         });
@@ -61,7 +72,7 @@ contract('TestERC721Mintable', accounts => {
             // console.log("receiver: " + accounts[5]);
             await this.contract.transferFrom(accounts[4], accounts[5], 4, {from:accounts[4]}).then(
                 function (res) {
-                     //console.log(res);
+                     // console.log(res);
                 });
         })
 

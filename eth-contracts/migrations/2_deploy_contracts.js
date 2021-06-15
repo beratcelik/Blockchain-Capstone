@@ -17,4 +17,5 @@ module.exports = function (deployer) {
   deployer.deploy(SquareVerifier).then(function () {
     return deployer.deploy(SolnSquareVerifier, SquareVerifier.address, "customToken", "CTN");
   })
+
 }

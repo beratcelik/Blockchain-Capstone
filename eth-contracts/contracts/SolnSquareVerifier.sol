@@ -41,7 +41,6 @@ contract SolnSquareVerifier is CustomERC721Token {
             uint256[2][2] memory b,
             uint256[2] memory c,
             uint256[2] memory input
-
     ) public{
 
             bytes32 sHash = keccak256(abi.encodePacked(input[0], input[1]));
