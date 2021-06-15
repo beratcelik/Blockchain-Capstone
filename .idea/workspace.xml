@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="Editted CustomERC721Token with the comments of Lorenzo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="7296b783-56df-48a0-bd8a-bc6243b87b55" name="Default Changelist" comment="Updated Contract address and OpenSea MarketPlace Storefront link's with the correct ones." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623166576858</updated>
-      <workItem from="1623166578215" duration="78896000" />
+      <workItem from="1623166578215" duration="79407000" />
     </task>
     <task id="LOCAL-00001" summary="ERC721MintableComplete changed to CustomERC721Token in TestERC721Mintable.js&#10;&#10;//var ERC721MintableComplete = artifacts.require('ERC721MintableComplete');&#10;var ERC721MintableComplete = artifacts.require('CustomERC721Token');">
       <created>1623168978675</created>
@@ -156,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623781795513</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated Contract address and OpenSea MarketPlace Storefront link's with the correct ones.">
+      <created>1623782627949</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1623782627949</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +189,7 @@
     <MESSAGE value="small bugs fixed" />
     <MESSAGE value="readme edited" />
     <MESSAGE value="Editted CustomERC721Token with the comments of Lorenzo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editted CustomERC721Token with the comments of Lorenzo" />
+    <MESSAGE value="Updated Contract address and OpenSea MarketPlace Storefront link's with the correct ones." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Contract address and OpenSea MarketPlace Storefront link's with the correct ones." />
   </component>
 </project>
